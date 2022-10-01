@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+.back{
+    background-color:  rgba(236, 216, 200, 0.993);
+    height: 640px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login-box{
+    width: 500px;
+    height: 580px;
+    background:rgb(182, 195, 228);
+    color: black;
+    top:50%;
+    left: 50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    font-family:'Shadows Into Light', cursive;;
+}
+
+.login-box .icon{
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    position: absolute;
+    top: 10%;
+    left: calc(45% - 50px);
+}
+.login-box h1{
+    margin: 0;
+    padding: 0;
+    margin-top: 35%;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Caveat Brush', cursive;
+}
+
+.login-box label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+    font-family: 'Comfortaa', cursive;
+}
+
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"]{
+    border: none;
+    border-bottom: 1px solid rgb(32, 31, 31);
+    text-align: center;
+    background: transparent;
+    outline: none;
+    height: 20px;
+    color: black;
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+
+}
+.login-box input[type="submit"]{
+    border: none;
+    border-color: rgb(0, 0, 0);
+    outline: none;
+    height: 40px;
+    font-size: 30px;
+    transition: 0.5s;
+    background:     rgb(168, 212, 107);
+    font-family: 'Caveat Brush', cursive;
+}
+.login-box input:hover[type="submit"]{
+    transition-delay: 0.1s;
+    background:     rgba(178, 255, 62, 0.918);
+}
+.login-box a{
+text-decoration: none;
+font-size: 20px;
+line-height: 20px;
+font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+
+}
+.login-box a:hover{
+color: white;
+}
+
