@@ -5,17 +5,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 .back{
     background-color:  rgba(236, 216, 200, 0.993);
-    height: 640px;
+    height: 880px;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .login-box{
     width: 500px;
-    height: 580px;
+    height: 700px;
     background:rgb(182, 195, 228);
     color: black;
-    top:50%;
+    top:60%;
     left: 50%;
     position:absolute;
     transform: translate(-50%,-50%);
@@ -29,7 +29,7 @@
     height: 150px;
     border-radius: 10%;
     position: absolute;
-    top: 10%;
+    top: 8%;
     left: calc(45% - 50px);
 }
 .login-box h1{
@@ -55,6 +55,7 @@
 }
 
 .login-box input[type="text"],
+.login-box input[type="number"],
 .login-box input[type="password"]{
     border: none;
     border-bottom: 1px solid rgb(32, 31, 31);
@@ -67,29 +68,21 @@
     font-size: 15px;
 
 }
-.login-box input[type="submit"]{
+.login-box button[type="submit"]{
     border: none;
     border-color: rgb(0, 0, 0);
     outline: none;
     height: 40px;
     font-size: 30px;
+    width: 100%;
+    height: 15%;
     transition: 0.5s;
-    background:     rgb(168, 212, 107);
+    align-items: center;
+    background:     rgb(183, 252, 118);
     font-family: 'Caveat Brush', cursive;
 }
-.login-box input:hover[type="submit"]{
+.login-box button:hover[type="submit"]{
     transition-delay: 0.1s;
-    background:     rgba(178, 255, 62, 0.918);
-}
-.login-box a{
-text-decoration: none;
-font-size: 20px;
-line-height: 20px;
-font-family: 'Comfortaa', cursive;
-    font-size: 15px;
-
-}
-.login-box a:hover{
-color: white;
+    background:     rgb(123, 255, 0);
 }
 
